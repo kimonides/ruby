@@ -8,6 +8,29 @@ require_relative 'transaction'
 account_array = []
 transaction_array = []
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 browser = Watir::Browser.new
 
 browser.goto("https://demo.bendigobank.com.au/banking/sign_in")
