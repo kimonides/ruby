@@ -51,6 +51,16 @@ browser.li(data_semantic: "account-group").ol.lis.each do | link |
     
     activity_groups = page.css("li[data-semantic='activity-group']")
 
+
+
+
+
+
+
+
+
+
+    
     activity_groups.each do |activity_group|
 
       if (Date.today - Date.parse(activity_group['data-semantic-group'])).to_i > 2*31
